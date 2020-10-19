@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <title>My Webpage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-oOs/gFavzADqv3i5nCM+9CzXe3e5vXLXZ5LZ7PplpsWpTCufB7kqkTlC9FtZ5nJo" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/1ee8489ce5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</Head>
+
+<body>
+    <div class="container">
+
+        <div class="bg-primary" id="header">
+            <div>
+                <h1 id="h1">James Paul Cameron</h1>
+            </div>
+            <div>
+                <h3 class="text-secondary">Fullstack Developer</h3>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row" id="list">
+            <div class="col-sm row justify-content-center">
+                <ul>
+                    <li class="red">HTML/CSS</li>
+                    <li class="yellow">FLEXBOX</li>
+                    <li class="blue">BOOTSTRAP</li>
+                </ul>
+            </div>
+            <div class="col-sm row justify-content-center">
+                <div>
+                    <img src="Me-bw.jpeg" alt="Me">
+                </div>
+            </div>
+            <div class="col-sm row justify-content-center">
+                <ul>
+                    <li class="green">JAVASCRIPT</li>
+                    <li class="orange">JQUERY</li>
+                    <li class="purple">AJAX</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row" id="links">
+            <div class="col-sm">
+                <button class="btn" id="git" onclick="window.open('https://github.com/Jamescameron88/MyRepos', '_blank');"><i
+                        class="fab fa-github-square fa-7x"></i></button>
+            </div>
+            <div class="col-sm">
+                <button class="btn" id="in" onclick="window.open('https://www.linkedin.com/in/james-cameron-78978519b/', '_blank');"><i
+                        class="fab fa-linkedin fa-7x"></i></button>
+            </div>
+            <div class="col-sm">
+                <button class="btn" id="fb" onclick="window.open('https://facebook.com/sbprincess91', '_blank');"><i
+                        class="fab fa-facebook fa-7x"></i></button>
+            </div>
+        </div>
+
+        <br>
+        <!-- Go back and dynamically list repos later with for-loop!!!!!!!!!!! -->
+        <!-- <h4>Github Repositories: </h4>
+
+        <div class="row" id="repos" >
+            <div class="col-sm">
+                <ul style="list-style-type:none;">
+                    <li></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul style="list-style-type:none;">
+                    <li><a href="https://github.com/Jamescameron88/MyRepos" target="_blank">
+                        <p id="p"></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul style="list-style-type:none;">
+                    <li></li>
+                </ul>
+            </div>
+        </div> -->
+
+        <br>
+
+        <footer>
+            <div class="row bg-secondary" id="footer">
+                <div class="col-sm"><i class="far fa-envelope"></i> jamespcameron@gmail.com</div>
+                <div class="col-sm"></div>
+                <div class="col-sm">Call/Text: (386) 624-3424</div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
