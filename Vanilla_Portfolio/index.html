@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <Head>
-    <title>My Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JPC</title>
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-oOs/gFavzADqv3i5nCM+9CzXe3e5vXLXZ5LZ7PplpsWpTCufB7kqkTlC9FtZ5nJo" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -15,7 +18,18 @@
 </Head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">     -->
+
+        <header>
+            <nav class="navbar" id="myNavbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
 
         <div class="bg-primary" id="header">
             <div>
@@ -31,9 +45,12 @@
         <div class="row" id="list">
             <div class="col-sm row justify-content-center">
                 <ul>
-                    <li class="red">HTML/CSS</li>
-                    <li class="yellow">FLEXBOX</li>
-                    <li class="blue">BOOTSTRAP</li>
+                    <li class="red">REACT</li>
+                    <li class="yellow">NODE.JS</li>
+                    <li class="blue">EXPRESS.JS</li>
+                    <li class="green">MYSQL/SEQUELIZE</li>
+                    <li class="orange">IONIC</li>
+                    <li class="purple">GITHUB/SOURCE CONTROL</li>
                 </ul>
             </div>
             <div class="col-sm row justify-content-center">
@@ -43,6 +60,9 @@
             </div>
             <div class="col-sm row justify-content-center">
                 <ul>
+                    <li class="red">HTML/CSS</li>
+                    <li class="yellow">FLEXBOX</li>
+                    <li class="blue">BOOTSTRAP</li>
                     <li class="green">JAVASCRIPT</li>
                     <li class="orange">JQUERY</li>
                     <li class="purple">AJAX</li>
@@ -51,47 +71,6 @@
         </div>
 
         <br>
-
-        <div class="row" id="links">
-            <div class="col-sm">
-                <button class="btn" id="git" onclick="window.open('https://github.com/Jamescameron88/MyRepos', '_blank');"><i
-                        class="fab fa-github-square fa-7x"></i></button>
-            </div>
-            <div class="col-sm">
-                <button class="btn" id="in" onclick="window.open('https://www.linkedin.com/in/james-cameron-78978519b/', '_blank');"><i
-                        class="fab fa-linkedin fa-7x"></i></button>
-            </div>
-            <div class="col-sm">
-                <button class="btn" id="fb" onclick="window.open('https://facebook.com/sbprincess91', '_blank');"><i
-                        class="fab fa-facebook fa-7x"></i></button>
-            </div>
-        </div>
-
-        <br>
-        <!-- Go back and dynamically list repos later with for-loop!!!!!!!!!!! -->
-        <!-- <h4>Github Repositories: </h4>
-
-        <div class="row" id="repos" >
-            <div class="col-sm">
-                <ul style="list-style-type:none;">
-                    <li></li>
-                </ul>
-            </div>
-            <div class="col-sm">
-                <ul style="list-style-type:none;">
-                    <li><a href="https://github.com/Jamescameron88/MyRepos" target="_blank">
-                        <p id="p"></p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm">
-                <ul style="list-style-type:none;">
-                    <li></li>
-                </ul>
-            </div>
-        </div> -->
-
         <br>
 
         <footer>
@@ -102,7 +81,7 @@
             </div>
         </footer>
 
-    </div>
+    <!-- </div> -->
     <script src="script.js" type="text/javascript"></script>
 </body>
 
